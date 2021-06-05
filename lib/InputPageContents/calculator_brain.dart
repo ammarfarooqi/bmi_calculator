@@ -25,11 +25,11 @@ class CalculatorBrain {
 
   String getInterpretation() {
     if (_bmi >= 25) {
-      return 'You have a higher than normal body weight. Try to exercise more.';
+      return 'You have a higher level of BMI which means you have excess weight on you at the moment, you can stay more healthy by exercising more.';
     } else if (_bmi >= 18.5) {
-      return 'You have a normal body weight. Good job!';
+      return 'You have normal level of BMI which means you are healthy.';
     } else {
-      return 'You have a lower than normal body weight. You can eat a bit more.';
+      return 'You have a lower level of BMI which means you can eat more to stay healthy.';
     }
   }
 }
